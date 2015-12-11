@@ -1,0 +1,18 @@
+{
+  "name": "rotonde-datadog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "start": "node --harmony-destructuring index.js"
+  },
+  "dependencies": {
+    "node-dogstatsd": "0.0.6",
+    "rotonde-client": "github:hackerloop/rotonde-client.js"
+  }
+}
