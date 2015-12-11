@@ -4,15 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node --harmony-destructuring index.js"
   },
   "author": "",
   "license": "ISC",
-  "scripts": {
-    "start": "node --harmony-destructuring index.js"
-  },
   "dependencies": {
-    "node-dogstatsd": "0.0.6",
+    "node-dogstatsd": "github:joybro/node-dogstatsd",
     "rotonde-client": "github:hackerloop/rotonde-client.js"
   }
 }
