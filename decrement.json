@@ -1,0 +1,10 @@
+{
+  "type": "action",
+  "payload": {
+    "identifier": "DATADOG_DECREMENT",
+    "data": {
+      "stats": "rotonde.test.counter",
+      "tags": ["tag1", "tag2", "tag3"]
+    }
+  }
+}

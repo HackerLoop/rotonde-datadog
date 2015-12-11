@@ -29,7 +29,7 @@ client.addLocalDefinition('action', 'DATADOG_TIMING', [
 client.addLocalDefinition('action', 'DATADOG_INCREMENT', [
   {
     name: 'stats',
-    type: 'object',
+    type: 'array of strings',
   },
   {
     name: 'sample_rate',
@@ -44,7 +44,7 @@ client.addLocalDefinition('action', 'DATADOG_INCREMENT', [
 client.addLocalDefinition('action', 'DATADOG_INCREMENTBY', [
   {
     name: 'stats',
-    type: 'object',
+    type: 'array of strings',
   },
   {
     name: 'value',
@@ -59,7 +59,7 @@ client.addLocalDefinition('action', 'DATADOG_INCREMENTBY', [
 client.addLocalDefinition('action', 'DATADOG_DECREMENT', [
   {
     name: 'stats',
-    type: 'object',
+    type: 'array of strings',
   },
   {
     name: 'sample_rate',
@@ -74,7 +74,7 @@ client.addLocalDefinition('action', 'DATADOG_DECREMENT', [
 client.addLocalDefinition('action', 'DATADOG_DECREMENTBY', [
   {
     name: 'stats',
-    type: 'object',
+    type: 'array of strings',
   },
   {
     name: 'value',

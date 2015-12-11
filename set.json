@@ -1,0 +1,11 @@
+{
+  "type": "action",
+  "payload": {
+    "identifier": "DATADOG_SET",
+    "data": {
+      "stat": "rotonde.test.set",
+      "value": 42,
+      "tags": ["tag1", "tag2", "tag3"]
+    }
+  }
+}
